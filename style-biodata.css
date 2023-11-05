@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial Narrow, sans-serif;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #F2DBD6;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar img {
+    max-width: 100%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+}
+
+.sidebar img:hover {
+    background-color: #F3F3F3;
+    opacity: 0.7;
+}
+
+.sidebar h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+}
+
+.sidebar p {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+    text-align: justify;
+}
+
+.sidebar span {
+    font-weight: bold;
+}
+
+.sidebar ul {
+    margin-top: 60px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+
+.sidebar ul li:hover {
+    color: white;
+    background-color: #E3C5BB; /* Change the background color on hover */
+    border-radius: 8px; /* Remove the initial rounded corners */
+    margin-right: 10px; /* Adjust the padding to follow the length of the text */
+    margin-left: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+/* Change the icon color on hover */
+.sidebar ul li:hover i {
+    color: black; /* Change the icon color on hover */
+    background-color: #E3C5BB;
+    border-radius: 8px;
+    margin-right: 10px; /* Adjust the padding to follow the length of the text */
+    margin-left: 40px;
+}
+
+.list-item.active a {
+    margin-right: 10px; /* Adjust the padding to follow the length of the text */
+    margin-left: 0px;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.list-item.active i {
+    font-size: x-large;
+    margin-right: 10px; /* Adjust the padding to follow the length of the text */
+    margin-left: -3px;
+}
+
+.list-item {
+    position: relative; 
+}
+
+.list-item i {
+    position: absolute;
+    left: -35px; 
+    font-size: 20px; 
+    color: black; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.social-links {
+    margin-top: 70px;
+    margin-left: 52px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black; 
+    margin-right: 30px; /* Add space between icons */
+}
+
+.social-links a i {
+    vertical-align: middle; /* Vertically center the icon with the text */
+}
+
+.social-links a:hover{
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F3F3F3;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    margin-bottom: auto;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: xx-large;
+    font-family: Arial;
+    text-align: left;
+    color: black;
+}
+
+.image-cell:hover {
+    background-color: #F3F3F3;
+    opacity: 0.7;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+th {
+    border: 1px solid black;
+    padding: 30px;
+    background-color: grey;
+    color: white;
+    font-size: x-large;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.image-cell {
+    text-align: center;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #F2DBD6;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 8px;
+}
